@@ -1,16 +1,26 @@
 # vuepress-markmap
 
+- [Markmap 官网](https://markmap.js.org/)
+
+```
+// 全局安装
+cnpm install markmap-cli -g
+
+// render Html
+markmap note.md
+```
+
 ## Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### development
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### production
 ```
 yarn build
 ```
