@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: PWD
-        run: ls | echo
+        run: echo hello,world
 
       - name: Publish to NPM
-        run: cd vuepress-plugin && npm publish || true
+        run: cd ./vuepress-plugin && npm publish || true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM }}
