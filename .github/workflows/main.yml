@@ -2,10 +2,11 @@ name: Next release
 
 on:
   push:
-    branches: [ release ]
+    branches: [ master ]
 
 jobs:
   publish-to-npm:
+    runs-on: ubuntu-latest
     steps:
       - name: Publish to NPM
         run: cd vuepress-plugin && npm publish || true
