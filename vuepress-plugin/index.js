@@ -9,6 +9,8 @@ module.exports = {
         $page.mindmapWidth = frontmatter.mindmapWidth;
         $page.mindmapHeight = frontmatter.mindmapHeight;
 
+        if (!_strippedContent) return;
+
         var content = _strippedContent;
 
         const startToken = '<mindmap>';
