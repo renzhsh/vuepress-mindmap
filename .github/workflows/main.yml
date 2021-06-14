@@ -12,6 +12,6 @@ jobs:
         run: ls | echo $1
 
       - name: Publish to NPM
-        run: cd ./vuepress-plugin && npm publish || true
+        run: ./publish.sh
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM }}
