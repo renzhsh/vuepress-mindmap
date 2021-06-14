@@ -12,6 +12,6 @@ jobs:
         run: ls | echo $1
 
       - name: Publish to NPM
-        run: ./publish.sh
+        run: publish.sh
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM }}
