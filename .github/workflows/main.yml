@@ -1,0 +1,13 @@
+name: Next release
+
+on:
+  push:
+    branches: [ release ]
+
+jobs:
+  publish-to-npm:
+    steps:
+      - name: Publish to NPM
+        run: cd vuepress-plugin && npm publish || true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM }}
