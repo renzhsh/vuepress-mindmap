@@ -1,0 +1,34 @@
+{
+    "name": "vuepress-plugin-mindmap",
+    "description": "a plugin to render mindmap for vuepress",
+    "keywords": [
+        "vue",
+        "vuepress",
+        "vuepress-plugin",
+        "markmap",
+        "mindmap",
+        "markdown"
+    ],
+    "homepage": "https://thinking.renzhansheng.cn/devops/markdown/#思维导图",
+    "bugs": {
+        "url": "https://github.com/renzhsh/vuepress-mindmap/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/renzhsh/vuepress-mindmap.git",
+        "directory": "vuepress-plugin"
+    },
+    "main": "index.js",
+    "version": "0.2.0",
+    "dependencies": {
+        "markmap-lib": "^0.11.6",
+        "markmap-view": "^0.2.6"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ],
+    "author": "renzhsh",
+    "license": "MIT"
+}

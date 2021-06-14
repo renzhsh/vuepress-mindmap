@@ -1,4 +1,13 @@
-# vuepress-markmap
+# vuepress-mindmap
+
+[Demo](https://thinking.renzhansheng.cn/devops/markdown/#思维导图)
+
+## Project setup
+```
+npm install
+npm run serve
+npm run build
+```
 
 - [Markmap 官网](https://markmap.js.org/)
 
@@ -10,20 +19,16 @@ cnpm install markmap-cli -g
 markmap note.md
 ```
 
-## Project setup
-```
-yarn install
-```
+## Publish Npm Packages
+npm官方规范建议的包至少包含：
 
-### development
-```
-yarn serve
-```
++ package.json（包的基本信息）
++ README.md（文档）
++ index.js （入口文件）
 
-### production
-```
-yarn build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+cd dist // 进入发布目录
+npm login // 登录
+npm publish // 发布
+```
