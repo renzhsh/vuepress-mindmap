@@ -1,6 +1,6 @@
 {
     "name": "vuepress-plugin-mindmap",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "main": "plugins/index.js",
     "description": "a plugin to render mindmap for vuepress",
     "scripts": {
