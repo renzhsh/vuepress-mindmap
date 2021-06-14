@@ -1,25 +1,49 @@
 {
-  "name": "vuepress-mindmap",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "markmap-lib": "^0.11.6",
-    "markmap-view": "^0.2.6",
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "name": "vuepress-plugin-mindmap",
+    "version": "0.2.4",
+    "main": "plugins/index.js",
+    "description": "a plugin to render mindmap for vuepress",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+      },
+    "dependencies": {
+        "markmap-lib": "^0.11.6",
+        "markmap-view": "^0.2.6"
+    },
+    "devDependencies": {
+        "core-js": "^3.6.5",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "vue-template-compiler": "^2.6.11",
+        "vue": "^2.6.11"
+      },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ],
+    "keywords": [
+        "vue",
+        "vuepress",
+        "vuepress-plugin",
+        "markmap",
+        "mindmap",
+        "markdown"
+    ],
+    "homepage": "https://thinking.renzhansheng.cn/devops/markdown/#思维导图",
+    "bugs": {
+        "url": "https://github.com/renzhsh/vuepress-mindmap/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/renzhsh/vuepress-mindmap.git",
+        "directory": "vuepress-plugin"
+    },
+    "author": "renzhsh",
+    "license": "MIT",
+    "files": [
+        "plugins/",
+        "LICENSE"
+      ]
 }

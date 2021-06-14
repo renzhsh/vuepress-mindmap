@@ -8,10 +8,7 @@ jobs:
   publish-to-npm:
     runs-on: ubuntu-latest
     steps:
-      - name: PWD
-        run: ls
-
       - name: Publish to NPM
-        run: cd vuepress-plugin && npm publish || true
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM }}
