@@ -8,6 +8,9 @@ jobs:
   publish-to-npm:
     runs-on: ubuntu-latest
     steps:
+      - name: PWD
+        run: ll
+        
       - name: Publish to NPM
         run: cd vuepress-plugin && npm publish || true
         env:
